@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+  margin-top: 30px;
+}
+
+.course {
+  position: relative;
+  border: 3px solid black;
+  width: 600px;
+  padding: 20px;
+  border-radius: 3px;
+  margin: 20px auto 0;
+}
+
+.sale {
+  display: inline-block;
+  color: white;
+  background-color: red;
+  padding: 5px;
+  border-radius: 3px;
+  transform: rotate(-25deg);
+  position: absolute;
+  top: -20px;
+  left: -25px;
+  letter-spacing: 3px;
+}
+
+.course-title {
+  font-size: 22px;
+  color: white;
+  background-color: #0037fe;
+  text-align: center;
+  border-radius: 4px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.course-img {
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.course-price {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.course-description {
+  color: rgb(126, 126, 126);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.course-link:link,
+.course-link:visited {
+  color: black;
+}
+
+.course-link:hover,
+.course-link:active {
+  text-decoration: none;
+}
+
+.roadmap {
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.course-roadmap-item {
+  list-style: none;
+  display: inline-block;
+}
+
+.course-roadmap-item:nth-child(2) {
+  padding: 5px 10px;
+  border: 2px solid #00ff;
+  border-radius: 3px;
+}
+
+.course-roadmap-item:first-child {
+  padding: 5px 10px;
+  border: 2px solid #ffa500;
+  border-radius: 3px;
+}
+
+.course-roadmap-item:last-child {
+  padding: 5px 10px;
+  border: 2px solid #f6f62b;
+  border-radius: 3px;
+}
+
+.course-list-title {
+  margin: 20px 0 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.course-list {
+  list-style: square;
+  margin: 0 0 20px 20px;
+}
+
+.course-button {
+  font-size: 20px;
+  color: white;
+  background-color: #0037fe;
+  border: none;
+  border-radius: 4px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.course-button:hover {
+  background-color: #244feb;
+}
